@@ -14,4 +14,3 @@ void main(){
         default:
             printf("\nNot an alphabet, It is a Number");
     }
-}
