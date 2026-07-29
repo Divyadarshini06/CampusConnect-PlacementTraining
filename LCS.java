@@ -1,5 +1,9 @@
 import java.util.*;
+<<<<<<< HEAD
 public class LCS
+=======
+public class  LCS
+>>>>>>> 8ca45e29407e237a5dc6467aece1a43a5d613ccd
 {
     public static void main (String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -24,9 +28,13 @@ public class LCS
         else
         arr[i][j]=Math.max(arr[i][j-1],arr[i-1][j]);
         System.out.println(arr[l2][l1]);
+<<<<<<< HEAD
         for(i=0;i<l2+1;i++){
             System.out.println();
         }
+=======
+        for(i=0;i<l2+1;i++,System.out.println())
+>>>>>>> 8ca45e29407e237a5dc6467aece1a43a5d613ccd
         for(j=0;j<l1+1;j++)
         System.out.print(arr[i][j]+ " ");
         

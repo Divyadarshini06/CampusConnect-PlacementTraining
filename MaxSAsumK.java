@@ -16,7 +16,7 @@ public class MaxSAsumK {
            }
 
            for(i=k; i<n; i++){
-            WinSum=arr[i]-arr[i-k];
+            WinSum +=arr[i]-arr[i-k];
            
            result=Math.max(result,WinSum);
            }
