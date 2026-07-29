@@ -1,0 +1,20 @@
+# C
+*.exe
+*.o
+*.obj
+
+# Java
+*.class
+*.jar
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Temporary files
+*.tmp
