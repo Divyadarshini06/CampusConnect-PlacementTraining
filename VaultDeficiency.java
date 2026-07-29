@@ -10,7 +10,12 @@ public class VaultDeficiency {
                 if(n%i==0){
                     sum+=i;
                 }
-            
-                
-    
-}
+            }
+            if(sum<n){
+                System.out.print("vault opens");
+            }
+            else{
+                System.out.print("Vault locked");
+            }
+        }
+    }
