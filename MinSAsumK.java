@@ -14,10 +14,11 @@ public class MinSAsumK {
 
              for(i=0;i<k;i++){
                 WinSum=WinSum+arr[i];
+                result=WinSum;
              }
 
              for(i=k;i<n;i++){
-                WinSum=arr[i]-arr[i-k];
+                WinSum +=arr[i]-arr[i-k];
             
              result=Math.min(result,WinSum);
             }
