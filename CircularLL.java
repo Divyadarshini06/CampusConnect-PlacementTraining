@@ -1,5 +1,4 @@
 //circular linked list
-import java.util.*;
 public class CircularLL{
 
     static class Node {

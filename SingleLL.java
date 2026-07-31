@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class SingleLL{
     static class Node{
         int data;
