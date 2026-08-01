@@ -83,10 +83,10 @@ public class  BiTreeTraversal
 
         m.preorder(m.root);
         System.out.println();
-m.postorder(m.root);
-System.out.println();
-m.levelorder(m.root);
 
-
+        m.postorder(m.root);
+        System.out.println();
+        
+        m.levelorder(m.root);
     }
 }
